@@ -10,7 +10,7 @@ PlanComponent = {
     }
 };
 
-Vue.component ('plan-picker', {
+let PlanPickerComponent = {
     template: '#plan-picker-template', components: {
         // keys are the name of the component
         // the value is the option object
@@ -22,8 +22,13 @@ Vue.component ('plan-picker', {
             plans: [ 'The Single', 'The Curious', 'The Addict' ]
         }
     }
-});
+};
 
 new Vue ({
-    el: '#app'
+    el: '#app',
+    components: {
+        // We can use it in this way too !!!
+        //'plan-picker':PlanPickerComponent
+        PlanPicker:PlanPickerComponent
+    }
 });

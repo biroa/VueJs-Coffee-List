@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2955da4c-2f6a-491c-a12c-f47887f32a72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569834414249</updated>
-      <workItem from="1569834415518" duration="7035000" />
+      <workItem from="1569834415518" duration="7643000" />
     </task>
     <task id="LOCAL-00001" summary="We reduced the HTML DOM size with a component. We added parameters to the component from outside with the help of the props param.">
       <created>1569838992519</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569842392913</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Register the plan component as a local component. This way it will not be available outside the plan-picker context. If you were using is globally and you do not need it it still will be converted to the final build.">
+      <created>1569843226282</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569843226282</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +136,7 @@
     <MESSAGE value="init the Mark Up of the plan-picker wrapper component." />
     <MESSAGE value="We wrapped our component with a plan-picker component. We pass data from the wrapper plan-picker component to the plan component. The original plan component is reusable now without compromises." />
     <MESSAGE value="Note about the global and local registration of a component." />
-    <option name="LAST_COMMIT_MESSAGE" value="Note about the global and local registration of a component." />
+    <MESSAGE value="Register the plan component as a local component. This way it will not be available outside the plan-picker context. If you were using is globally and you do not need it it still will be converted to the final build." />
+    <option name="LAST_COMMIT_MESSAGE" value="Register the plan component as a local component. This way it will not be available outside the plan-picker context. If you were using is globally and you do not need it it still will be converted to the final build." />
   </component>
 </project>
