@@ -1,6 +1,5 @@
-// We can register a component Globally or Locally.
-// This is the local registration of a component but now
-// can not use the plan component outside of the plan-picker context because we will get an error!
+// We can pass data to child components using props.
+// But we need something else to pass data from the child to the parent.
 let PlanComponent;
 PlanComponent = {
     template: '#plan-template', props: {
