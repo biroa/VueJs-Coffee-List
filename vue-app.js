@@ -1,5 +1,5 @@
-// Single name components without dash is considered a bad practise however
-// we go with it like plan for simplicity reason
+// We can register a component Globally or Locally.
+// This vue.component approach is the global one and it is not a good practise!!!
 
 Vue.component ('plan-picker', {
     template: '#plan-picker-template', data() {
@@ -13,7 +13,7 @@ Vue.component ('plan-picker', {
             ]
         }
     }
-})
+});
 
 Vue.component ('plan', {
     template: '#plan-template', props: {
@@ -22,6 +22,7 @@ Vue.component ('plan', {
         }
     }
 });
+
 new Vue ({
     el: '#app'
 });
