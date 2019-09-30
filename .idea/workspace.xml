@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2955da4c-2f6a-491c-a12c-f47887f32a72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-app.js" afterDir="false" />
@@ -62,8 +61,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569834414249</updated>
-      <workItem from="1569834415518" duration="3015000" />
+      <workItem from="1569834415518" duration="4300000" />
     </task>
+    <task id="LOCAL-00001" summary="We reduced the HTML DOM size with a component. We added parameters to the component from outside with the help of the props param.">
+      <created>1569838992519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569838992519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="We reduced the HTML DOM size with a component. We added parameters to the component from outside with the help of the props param." />
+    <option name="LAST_COMMIT_MESSAGE" value="We reduced the HTML DOM size with a component. We added parameters to the component from outside with the help of the props param." />
   </component>
 </project>

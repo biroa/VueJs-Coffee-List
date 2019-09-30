@@ -18,9 +18,8 @@
         </h2>
 
         <div class="plans">
-            <plan name="The Single"></plan>
-            <plan name="The Curious"></plan>
-            <plan name="The Addict"></plan>
+            <!-- We are binding the items of the plans array within the loop for the component -->
+            <plan v-for="plan in plans" :name="plan"></plan>
         </div>
     </div>
 </div>
