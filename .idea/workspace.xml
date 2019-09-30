@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2955da4c-2f6a-491c-a12c-f47887f32a72" name="Default Changelist" comment="">
+    <list default="true" id="2955da4c-2f6a-491c-a12c-f47887f32a72" name="Default Changelist" comment="Note: Pass data from the child component to the parent components using the $emit where we can define our custom event.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-app.js" afterDir="false" />
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569834414249</updated>
-      <workItem from="1569834415518" duration="8188000" />
+      <workItem from="1569834415518" duration="13797000" />
     </task>
     <task id="LOCAL-00001" summary="We reduced the HTML DOM size with a component. We added parameters to the component from outside with the help of the props param.">
       <created>1569838992519</created>
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569843783475</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Note: Pass data from the child component to the parent components using the $emit where we can define our custom event.">
+      <created>1569844361861</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569844361861</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +152,7 @@
     <MESSAGE value="Note about the global and local registration of a component." />
     <MESSAGE value="Register the plan component as a local component. This way it will not be available outside the plan-picker context. If you were using is globally and you do not need it it still will be converted to the final build." />
     <MESSAGE value="Register the plan-picker component as a local component of the main Vue root's component." />
-    <option name="LAST_COMMIT_MESSAGE" value="Register the plan-picker component as a local component of the main Vue root's component." />
+    <MESSAGE value="Note: Pass data from the child component to the parent components using the $emit where we can define our custom event." />
+    <option name="LAST_COMMIT_MESSAGE" value="Note: Pass data from the child component to the parent components using the $emit where we can define our custom event." />
   </component>
 </project>

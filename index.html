@@ -12,6 +12,7 @@
 <div id="app" class="container mx-auto py-6">
     <div class="content">
         <h1 class="title">Coffee Plans</h1>
+
         <h2 class="subtitle">
             We travel the world to source the very best single origin coffee for you
         </h2>
@@ -22,17 +23,16 @@
 
 <script type="text/x-template" id="plan-picker-template">
     <div class="plans">
-        <!-- We are binding the items of the plans array within the loop for the component -->
-        <plan v-for="plan in plans" :name="plan" v-bind:key="plan.id"></plan>
+        <plan-picker-item v-for="plan in plans"  :key="plan.id" :name="plan" @select="selectPlan" :selected-plan="selectedPlan"></plan-picker-item>
     </div>
 </script>
 
-<script type="text/x-template" id="plan-template">
-    <div class="plan">
+<script type="text/x-template" id="plan-picker-item-template">
+    <div @click="select" class="plan" :class="{'active-plan': isSelected}">
         <div class="description">
-            <span class="title">
-                {{name}}
-            </span>
+          <span class="title">
+            {{name}}
+          </span>
         </div>
     </div>
 </script>

@@ -1,33 +1,52 @@
-// We can pass data to child components using props.
-// But we need something else to pass data from the child to the parent.
-let PlanComponent;
-PlanComponent = {
-    template: '#plan-template', props: {
+let PlanPickerItemComponent = {
+    template: '#plan-picker-item-template',
+    props: {
         name: {
-            type: String, required: true
+            type: String,
+            required: true
+        },
+        selectedPlan: {
+            type: String
+        }
+    },
+    computed: {
+        isSelected() {
+            return this.name === this.selectedPlan
+        }
+    },
+    methods: {
+        select() {
+            this.$emit('select', this.name)
         }
     }
 };
 
 let PlanPickerComponent = {
-    template: '#plan-picker-template', components: {
+    template: '#plan-picker-template',
+    components: {
         // keys are the name of the component
         // the value is the option object
-        plan: PlanComponent
-    }, data() {
+        'plan-picker-item': PlanPickerItemComponent
+    },
+    data() {
         return {
             // we could pass this data through props from the Vue root component but
             // in this way the component independent from the root.
-            plans: [ 'The Single', 'The Curious', 'The Addict' ]
+            plans: [ 'The Single', 'The Curious', 'The Addict' ],
+            selectedPlan: null
+        }
+    },
+    methods: {
+        selectPlan(plan) {
+            this.selectedPlan = plan
         }
     }
 };
 
-new Vue ({
+
+new Vue({
     el: '#app',
     components: {
-        // We can use it in this way too !!!
-        //'plan-picker':PlanPickerComponent
-        PlanPicker:PlanPickerComponent
+        'plan-picker': PlanPickerComponent
     }
 });
