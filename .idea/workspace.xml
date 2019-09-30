@@ -4,6 +4,7 @@
     <list default="true" id="2955da4c-2f6a-491c-a12c-f47887f32a72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569834414249</updated>
-      <workItem from="1569834415518" duration="5387000" />
+      <workItem from="1569834415518" duration="5804000" />
     </task>
     <task id="LOCAL-00001" summary="We reduced the HTML DOM size with a component. We added parameters to the component from outside with the help of the props param.">
       <created>1569838992519</created>
@@ -83,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569840906000</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init the Mark Up of the plan-picker wrapper component.">
+      <created>1569841405595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569841405595</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +112,7 @@
     <MESSAGE value="We reduced the HTML DOM size with a component. We added parameters to the component from outside with the help of the props param." />
     <MESSAGE value="We moved the data into the Vue data object property. This way we continued the reduction of the HTML DOM size. We passed the data items within the for loop to the component." />
     <MESSAGE value="We changed the component props Array type to Object. We can define the data type and we can add extra validation to the property." />
-    <option name="LAST_COMMIT_MESSAGE" value="We changed the component props Array type to Object. We can define the data type and we can add extra validation to the property." />
+    <MESSAGE value="init the Mark Up of the plan-picker wrapper component." />
+    <option name="LAST_COMMIT_MESSAGE" value="init the Mark Up of the plan-picker wrapper component." />
   </component>
 </project>

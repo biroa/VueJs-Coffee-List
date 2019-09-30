@@ -17,11 +17,6 @@
             We travel the world to source the very best single origin coffee for you
         </h2>
 
-        <div class="plans">
-            <!-- We are binding the items of the plans array within the loop for the component -->
-            <plan v-for="plan in plans" :name="plan"></plan>
-        </div>
-
         <!--
         At the moment we have a component, but it is not too reusable.
         We have to copy three lines of code and we have to make sure that the
@@ -30,6 +25,13 @@
         <plan-picker></plan-picker>
     </div>
 </div>
+
+<script type="text/x-template" id="plan-picker-template">
+    <div class="plans">
+        <!-- We are binding the items of the plans array within the loop for the component -->
+        <plan v-for="plan in plans" :name="plan"></plan>
+    </div>
+</script>
 
 <script type="text/x-template" id="plan-template">
     <div class="plan">
